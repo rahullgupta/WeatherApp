@@ -38,7 +38,12 @@ export const data = {
             population: 3000000,
             cities: [
               { name: "Karimnagar", high: "33", low: "10", population: 500000 },
-              { name: "Bhuvanagiri", high: "32", low: "9", population: 1000000 },
+              {
+                name: "Bhuvanagiri",
+                high: "32",
+                low: "9",
+                population: 1000000,
+              },
               { name: "Hyderabad", high: "32", low: "8", population: 1000000 },
               { name: "Jangaon", high: "32", low: "11", population: 300000 },
               { name: "Warangal", high: "30", low: "10", population: 200000 },
@@ -55,7 +60,7 @@ export const data = {
             cities: [
               { name: "Bangalore", high: "33", low: "10", population: 1000000 },
               { name: "Mysore", high: "32", low: "9", population: 2000000 },
-              { name: "Mangalore", high: "32", low: "8" , population: 800000},
+              { name: "Mangalore", high: "32", low: "8", population: 800000 },
               { name: "Udupi", high: "32", low: "11", population: 700000 },
               { name: "Kolar", high: "30", low: "10", population: 500000 },
             ],
@@ -69,8 +74,13 @@ export const data = {
             temp: 21,
             population: 2000000,
             cities: [
-              { name: "Kochi", high: "33", low: "10", , population: 500000 },
-              { name: "Thiruvananthapuram", high: "32", low: "9", population: 200000 },
+              { name: "Kochi", high: "33", low: "10", population: 500000 },
+              {
+                name: "Thiruvananthapuram",
+                high: "32",
+                low: "9",
+                population: 200000,
+              },
               { name: "Kozhikode", high: "32", low: "8", population: 300000 },
               { name: "Kannur", high: "32", low: "11", population: 500000 },
               { name: "Kollam", high: "30", low: "10", population: 500000 },
@@ -86,7 +96,12 @@ export const data = {
             population: 3500000,
             cities: [
               { name: "Kurnool", high: "33", low: "10", population: 500000 },
-              { name: "Visakhapatnam", high: "32", low: "9", population: 1000000 },
+              {
+                name: "Visakhapatnam",
+                high: "32",
+                low: "9",
+                population: 1000000,
+              },
               { name: "Tirupati", high: "32", low: "8", population: 1000000 },
               { name: "Guntur", high: "32", low: "11", population: 600000 },
               { name: "Eluru", high: "30", low: "10", population: 400000 },
@@ -144,8 +159,8 @@ export const data = {
               { name: "Bhopal", high: "33", low: "10", population: 1000000 },
               { name: "Indore", high: "32", low: "9", population: 1000000 },
               { name: "Gwalior", high: "32", low: "8", population: 1000000 },
-              { name: "Jabalpur", high: "32", low: "11" , population: 1000000},
-              { name: "Ujjain", high: "30", low: "10" , population: 500000},
+              { name: "Jabalpur", high: "32", low: "11", population: 1000000 },
+              { name: "Ujjain", high: "30", low: "10", population: 500000 },
             ],
           },
         },
