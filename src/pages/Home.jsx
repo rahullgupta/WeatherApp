@@ -20,7 +20,7 @@ const Home = () => {
     let replaced = city.trim().replace(" ", "+");
     axios
       .get(
-        `https://api.openweathermap.org/data/2.5/weather?q=${replaced}&APPID=8b9363a09f791d8e7e76bc9b00398dc9&units=${tempUnit}`
+        `https://api.openweathermap.org/data/2.5/weather?q=${replaced}&APPID=${process.env.REACT_APP_WEATHER_API}&units=${tempUnit}`
       )
       .then((res) => {
         setData(res.data);
